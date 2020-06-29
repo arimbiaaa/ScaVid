@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "374774442006",
+    "firebase_url": "https://tubespam-89863.firebaseio.com",
+    "project_id": "tubespam-89863",
+    "storage_bucket": "tubespam-89863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374774442006:android:122e9dfcdb6222bbb9ed37",
+        "android_client_info": {
+          "package_name": "com.example.tubesarb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374774442006-27g9eohjpouip6qv8ermh78pafqbl2me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_yLXI2o_eYzGcly3cgSUMlARw5Cwmko8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374774442006-27g9eohjpouip6qv8ermh78pafqbl2me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

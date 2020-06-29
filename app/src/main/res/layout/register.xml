@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg"
+    tools:context="com.example.tubesarb.Register">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/regis_pasien"
+            android:textAlignment="center"
+            android:textColor="@color/coklat"
+            android:textSize="45sp" />
+
+        <EditText
+            android:id="@+id/nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/nama_lengkap"
+            android:inputType="textPersonName"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/abu" />
+
+        <EditText
+            android:id="@+id/tanggal_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/tanggal_lahir"
+            android:inputType="textPersonName"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/abu" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/alamat"
+            android:inputType="textPersonName"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/abu" />
+
+        <EditText
+            android:id="@+id/tanggal_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/tanggal_masuk"
+            android:inputType="textPersonName"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/abu" />
+
+        <EditText
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/deskripsi"
+            android:inputType="textMultiLine"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/abu" />
+
+        <Button
+            android:id="@+id/generate"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="generate"
+            android:text="@string/generate"
+            android:textAllCaps="false"
+            android:textColor="@color/putih"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="?attr/actionBarDivider" />
+
+        <Button
+            android:id="@+id/barcode"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/save_barcode"
+            android:background="@drawable/button"
+            android:fontFamily="@string/barcode"
+            android:onClick="barcode"
+            android:textColor="@color/putih"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="simpan"
+            android:text="@string/simpan"
+            android:textAllCaps="false"
+            android:textColor="@color/putih"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/bck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:onClick="Register"
+        android:id="@+id/btnRegis"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/registrasi"
+        android:textAllCaps="false"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:onClick="Scan"
+        android:id="@+id/btnScan"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/scan"
+        android:textAllCaps="false"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:onClick="pasien"
+        android:id="@+id/btnPasien"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/lihat_pasien"
+        android:textAllCaps="false"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnPasien"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:onClick="info"
+        android:text="@string/info_c"
+        android:textAllCaps="false"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="270dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        app:srcCompat="@drawable/logobmb"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+</RelativeLayout>

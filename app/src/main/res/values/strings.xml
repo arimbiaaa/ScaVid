@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TubesARB</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="scan">Scan</string>
+    <string name="lihat_pasien">Lihat Pasien</string>
+    <string name="simpan">Simpan</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="regis_pasien">Registrasi Pasien Covid-19</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_masuk">Tanggal Masuk</string>
+    <string name="generate">generate</string>
+    <string name="save_barcode">Save Barcode</string>
+    <string name="barcode">sans-serif-smallcaps</string>
+    <string name="nama">nama</string>
+    <string name="alamatp">alamatp</string>
+    <string name="Check" />
+    <string name="Alamat" />
+    <string name="Nama" />
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="tanggal_masuk_rs">Tanggal Masuk RS</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="desk2">Deskripsi / Riwayat</string>
+    <string name="tanggallahir2">Tanggal Lahir</string>
+    <string name="nama_pasien">Nama Pasien</string>
+    <string name="alamat_pasien">Alamat Pasien</string>
+    <string name="detail">Detail</string>
+    <string name="keterangan_pasien">Keterangan Pasien</string>
+    <string name="nmapp">ScaVid</string>
+    <string name="sc19">ScaVid-19</string>
+    <string name="info_c_19">info c-19</string>
+    <string name="info_c">INFO C-19</string>
+
+</resources>

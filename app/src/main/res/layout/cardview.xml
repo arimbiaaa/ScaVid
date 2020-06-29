@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    app:cardElevation="10dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="vertical"
+        android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_pasien"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat_pasien"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alamatp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggallahir2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tangall"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal_masuk_rs"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tanggalm"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desk2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desk"
+        android:padding="5dp"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
